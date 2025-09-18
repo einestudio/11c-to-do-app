@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="module" src="js.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <div>
+        <button id="darkmode-toggle">Dark Mode</button>
+      </div>
+      <form action="#" method="get" class="form-example">
+        <div class="form-example">
+          <input type="text" name="task" id="task" placeholder="Enter task" />
+        </div>
+        <div class="form-example">
+          <input type="button" value="Submit" id="knap" />
+        </div>
+      </form>
+
+      <div class="header-container">
+        <h3>TO DO</h3>
+      </div>
+      <ul id="inProgressList"></ul>
+
+      <div class="header-container">
+        <h3>DONE√</h3>
+      </div>
+      <ul id="doneList"></ul>
+      <template>
+        <li>
+          <header class="task">header</header>
+          <div class="container">
+            <button type="button">button</button>
+            <button type="button" class="delete">Delete</button>
+          </div>
+        </li>
+      </template>
+    </div>
+    <div>test</div>
+  </body>
+</html>
